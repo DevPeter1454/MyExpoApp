@@ -8,8 +8,9 @@ workflows:
 
     environment:
       node: v18.17.0
-      android_sdk: "33.0.0"
       java: 11
+      android:
+        sdk: "33.0.0"
 
     scripts:
       - name: Install dependencies
